@@ -1,0 +1,105 @@
+body{
+      text-align: center;
+      
+      color: white;
+      font-family: helvetica;
+    }
+header{
+  background: url("https://cdn.shopify.com/s/files/1/1107/6200/products/Rajs_130425_3888DNG-Editprint36x24.5bmoon_1024pxweb.jpg?v=1526850937");
+      background-size: 100%;
+      background-position: center;
+
+      
+}
+html{
+  background-color: darkblue;
+}
+p {
+      font-size: 18px;
+    }
+
+ul {
+      padding: 10px;
+      background:rgba(0,0,0,0.75);
+    }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;     
+      background:rgba(0,0,0,0.75); 
+    }
+
+a{
+      text-decoration: none;
+      color:aqua;
+}
+
+#Flag{
+  border:15px;
+  border-radius: 350px;
+  margin: 25px 0px 0px 0px;
+}
+
+#me{
+  border:15px solid skyblue;
+  height:200px;
+  width:300px;
+}
+button{
+  margin: 25px 0px 0px 0px;
+  text-align: center;
+}
+
+#nyc{
+  object-fit: contain;
+  object-position: absolute;
+}
+#park{
+  object-fit: contain;
+}
+#bk{
+  object-fit: contain;
+}
+#friend{
+  object-fit: contain;
+}
+h1{
+  text-align: center;
+}
+
+.article{
+      max-width: 500px;
+      min-width: 300px;
+      padding: 10px;
+      margin: 0 auto;
+      object-fit: contain;
+      border: 5px solid aqua;
+  }
+
+#writing{
+      max-width: 750px;
+      padding: 20px;
+      margin: 0 auto;
+      border: 5px solid aqua;
+}
+
+@media (max-width: 400px){
+      h1{
+         font-size: 18px;
+       }
+      li{
+           display: block;
+           padding: 5px;
+      }
+   }
+
+footer{
+  background-color: skyblue;
+}
+
+#name{
+  color: blue;
+}
+br{
+  border: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+}
